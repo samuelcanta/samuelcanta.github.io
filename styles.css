@@ -118,6 +118,46 @@ footer {
   font-size: 1.1rem;
 }
 
+.empleo-section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.job-listing {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.job-listing img {
+  width: 250px;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.job-description {
+  flex: 1;
+}
+
+.job-description a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+.benefits {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   header {

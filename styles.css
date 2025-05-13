@@ -92,18 +92,24 @@ footer {
 
 /* Historia Page Specific Styles */
 .historia-bg {
-  background-image: url('/img/historia-bg.jpg');
+  background-image: url('/img/old_computer.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding: 6rem 2rem;
   min-height: 100vh;
   position: relative;
   color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content-overlay {
-  background-color: rgba(255, 255, 255, 0.85);
-  padding: 3rem;
+  background-color: rgba(255, 255, 255, 0.65); /* Translucent light background */
+  backdrop-filter: blur(8px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(8px);
+  padding: 4rem;
   border-radius: 1.5rem;
   max-width: 1000px;
   margin: auto;

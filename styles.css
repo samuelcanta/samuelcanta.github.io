@@ -89,6 +89,25 @@ footer {
   margin-top: 2rem;
 }
 
+.historia-bg {
+  background-image: url('/img/historia-bg.jpg'); /* Replace with your chosen image path */
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.content-overlay {
+  background-color: rgba(15, 23, 42, 0.7); /* Dark translucent background */
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   header {

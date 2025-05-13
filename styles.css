@@ -62,6 +62,7 @@ main {
 
 main h2, main h3 {
   color: #0f172a;
+  margin-top: 2rem;
 }
 
 main img {
@@ -89,23 +90,26 @@ footer {
   margin-top: 2rem;
 }
 
+/* Historia Page Specific Styles */
 .historia-bg {
-  background-image: url('/img/old_computer.jpg'); /* Replace with your chosen image path */
+  background-image: url('/img/historia-bg.jpg');
   background-size: cover;
   background-position: center;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   min-height: 100vh;
   position: relative;
-  color: white;
+  color: #222;
 }
 
 .content-overlay {
-  background-color: rgba(15, 23, 42, 0.7); /* Dark translucent background */
-  padding: 2rem;
-  border-radius: 1rem;
-  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 3rem;
+  border-radius: 1.5rem;
+  max-width: 1000px;
   margin: auto;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  line-height: 1.8;
+  font-size: 1.1rem;
 }
 
 /* Responsive adjustments */
@@ -118,5 +122,9 @@ footer {
   nav ul {
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+  .content-overlay {
+    padding: 2rem;
   }
 }
